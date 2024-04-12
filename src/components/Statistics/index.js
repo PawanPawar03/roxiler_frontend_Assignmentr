@@ -26,7 +26,7 @@ const {selectedMonth} = props
     <div className='statistics-main-container'>
         <h2>Statistics - {selectedMonth}</h2>
         <div className='statitics-container'>
-            <div className='element'><span>Total Sale</span> <span>{statistics.totalSaleAmount}</span></div>
+            <div className='element'><span>Total Sale </span> <span>{statistics.totalSaleAmount}</span></div>
             <div className='element'><span>Total sold item</span> <span>{statistics.totalSoldItems}</span></div>
             <div className='element'><span>Total not sold item</span> <span>{statistics.totalNotSoldItems}</span></div>
         </div>
